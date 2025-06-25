@@ -65,7 +65,7 @@ async def check(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await update.message.reply_text(info, parse_mode='Markdown')
 
-app = ApplicationBuilder().token("تۆکنی بۆتەکەت لێرە بنووسە").build()
+app = ApplicationBuilder().token("7387003095:AAFocdeRPw9Kh8YHcUWks5WIEkJHt8sI9Sw").build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("check", check))
 app.run_polling()
